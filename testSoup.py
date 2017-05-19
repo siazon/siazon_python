@@ -38,7 +38,6 @@ def get_qq(qqstr):
     qq=re.findall(reg,qqstr)
     return qq
 
-
 def get_attractions(url):
     page=urllib.urlopen(url)
     html=page.read()
@@ -58,7 +57,6 @@ def get_attractions(url):
          }
         print data
 
-
 i=1
 while(i<2):
     i+=1
@@ -72,7 +70,6 @@ while(i<2):
 #         'img' : img.get('src')
 #     }
 #     print data
-
 
 #soup = BeautifulSoup(html_doc,'lxml')
 
